@@ -1,6 +1,8 @@
-Cordel Moderno
-Por Milton Duarte
-[SITE: https://www.recantodasletras.com.br/poesias/3186743]
+<header>
+    Cordel Moderno
+    Por Milton Duarte
+    [SITE: https://www.recantodasletras.com.br/poesias/3186743]
+</header>
 
 Estou ficando cansado
 Da tal tecnologia
