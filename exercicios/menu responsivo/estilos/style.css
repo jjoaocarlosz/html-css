@@ -1,0 +1,63 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+body, html{
+    background-color: lightgray;
+}
+header{
+    background-color: rgb(90, 85, 85);
+}
+header > h1 {
+    padding: 10px;
+    text-align: center;
+}
+menu{
+    display: none;
+}
+menu > ul {
+    list-style-type: none;/*para tirar as bolinhas da lista */
+}
+menu a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;/*para tirar o link*/
+    text-align: center;
+    background-color: rgb(61, 56, 56);
+    color: aliceblue;
+    border: 2px solid black;
+}
+menu > ul > li > a:hover{
+    background-color: grey;/*a hora que passar a setinha mudar a cor */
+}
+main{
+    width: 90%;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+article > h2{
+    padding-bottom: 20px;
+}
+article > p{
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
+span#burguer{
+    background-color: aqua;
+    display: block;
+    text-align: center;
+    padding: 10px;
+
+}
+span#burguer:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
